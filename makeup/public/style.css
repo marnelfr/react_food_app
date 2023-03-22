@@ -1,3 +1,4 @@
+/*checkout*/
 .form-control {
     margin-bottom: 1rem;
 }
@@ -107,8 +108,9 @@ button:active {
     background-color: #8a2b06;
     color: white;
 }
+/*!checkout*/
 
-
+/*cart*/
 .cart-items {
     list-style: none;
     margin: 0;
@@ -155,9 +157,10 @@ button:active {
     background-color: #8a2b06;
     color: white;
 }
+/*!cart*/
 
 
-
+/*cart-item*/
 .cart-item {
     display: flex;
     justify-content: space-between;
@@ -223,10 +226,11 @@ button:active {
     background-color: #8a2b06;
     color: white;
 }
+/*!cart-item*/
 
 
 
-
+/*header*/
 .header {
     position: fixed;
     top: 0;
@@ -256,10 +260,11 @@ button:active {
     object-fit: cover;
     transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
 }
+/*!header*/
 
 
 
-
+/*header-button*/
 .button {
     cursor: pointer;
     font: inherit;
@@ -319,9 +324,10 @@ button:active {
         transform: scale(1);
     }
 }
+/*!header-button*/
 
 
-
+/*meal*/
 .meal {
     display: flex;
     justify-content: space-between;
@@ -344,10 +350,11 @@ button:active {
     color: #ad5502;
     font-size: 1.25rem;
 }
+/*!meal*/
 
 
 
-
+/*meal-form*/
 .form {
     text-align: right;
 }
@@ -388,10 +395,12 @@ button:active {
     font: inherit;
     padding-left: 0.5rem;
 }
+/*!meal-form*/
 
 
 
 
+/*meals*/
 .meals {
     max-width: 60rem;
     width: 90%;
@@ -420,11 +429,12 @@ button:active {
 .message{
     text-align: center;
 }
+/*!meals*/
 
 
 
 
-
+/*summary*/
 .summary {
     text-align: center;
     max-width: 45rem;
@@ -443,19 +453,22 @@ button:active {
     font-size: 2rem;
     margin-top: 0;
 }
+/*!summary*/
 
 
 
+/*card*/
 .card {
     padding: 1rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
     border-radius: 14px;
     background-color: white;
 }
+/*!card*/
 
 
 
-
+/**modal**/
 .backdrop {
     position: fixed;
     top: 0;
@@ -496,3 +509,4 @@ button:active {
         transform: translateY(0);
     }
 }
+/**!modal**/
