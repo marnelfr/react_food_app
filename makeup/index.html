@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FoodApp</title>
+    <link rel="stylesheet" href="/makeup/public/style.css">
+</head>
+
+<body>
+<div>
+    <li class="cart-item">
+        <div>
+            <h2>Sushi</h2>
+            <div class="summary">
+                <span class="price">15,55</span>
+                <span class="amount">x 2</span>
+            </div>
+        </div>
+        <div class="actions">
+            <button>−</button>
+            <button>+</button>
+        </div>
+    </li>
+    <div class="total">
+        <span>Total Amount</span>
+        <span>31,10</span>
+    </div>
+    <div class="actions">
+        <button class='button--alt'>Close</button>
+        <button class="button">Order</button>
+    </div>
+
+
+    <form>
+        <div class='control-group'>
+            <div class='form-control'>
+                <label htmlFor="name">Your name</label>
+                <input type='text' id="name"/>
+            </div>
+            <div class='form-control invalid'>
+                <label htmlFor="name">Street</label>
+                <input type='text' id="name"/>
+                <p class='error-text'>Please enter a valid value</p>
+            </div>
+        </div>
+        <div class='control-group'>
+            <div class='form-control'>
+                <label htmlFor="city">City</label>
+                <input type='text' id="city"/>
+            </div>
+            <div class='form-control'>
+                <label htmlFor="email">Email</label>
+                <input type='text' id="email"/>
+            </div>
+        </div>
+        <div class="actions">
+            <button class='button--alt'>Cancel</button>
+            <button>Submit</button>
+        </div>
+    </form>
+
+    <p>Your order has been submitted successfully</p>
+    <small>Please, check your email</small>
+    <div class="actions">
+        <button class={styles['button--alt']}>Close</button>
+    </div>
+</div>
+
+
+<header class="header">
+    <h1>ReactMeals</h1>
+    <button class="button bump">
+      <span class="icon">
+        <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor'>
+          <path d='M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z' />
+        </svg>
+      </span>
+        <span>Your Cart</span>
+        <span class="badge">45</span>
+    </button>
+</header>
+<div class="mainImage">
+    <img src="/makeup/public/img.png" alt="A table full of delicious food !"/>
+</div>
+
+<main>
+    <section class="summary">
+        <h2>Delicious Food, Delivered To You</h2>
+        <p>
+            Choose your favorite meal from our broad selection of available meals
+            and enjoy a delicious lunch or dinner at home.
+        </p>
+        <p>
+            All our meals are cooked with high-quality ingredients, just-in-time and
+            of course by experienced chefs!
+        </p>
+    </section>
+    <section class="meals">
+        <div class="card">
+            <li class="meal">
+                <div>
+                    <h3>Meal's name</h3>
+                    <div class="description">Meal's description</div>
+                    <div class="price">15,25</div>
+                </div>
+                <div>
+                    <form class="form">
+                        <div class="input">
+                            <label htmlFor="meal">Amount</label>
+                            <input type="number" defaultValue="1" />
+                        </div>
+                        <button>+ Add</button>
+                        <p>Please enter a valid amount.</p>
+                    </form>
+                </div>
+            </li>
+        </div>
+    </section>
+</main>
+</body>
+</html>
